@@ -1,0 +1,42 @@
+body {
+    background: url('https://i.redd.it/8r4qhh17uss91.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white; 
+}
+
+.container {
+    background-color: rgba(136, 0, 27, 0.9); 
+    padding: 25px;
+    box-shadow: 10px 10px 30px;
+    border-radius: 10px; 
+}
+
+h1, p, label, select, summary, button, footer {
+    color: white; 
+}
+
+input, select {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white; 
+    border: 1px solid white; 
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+
+#Seat option {
+    color: black;
+}
+
+
+button {
+    background-color: #ff4c4c; 
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #cc0000; 
+}
